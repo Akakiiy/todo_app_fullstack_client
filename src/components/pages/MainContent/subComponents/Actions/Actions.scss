@@ -1,0 +1,16 @@
+.Actions {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  &__input {
+    width: 65%;
+  }
+
+  &__btn_add {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: deeppink;
+    border: none;
+  }
+}

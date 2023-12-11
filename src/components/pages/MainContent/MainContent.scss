@@ -1,0 +1,18 @@
+.MainContent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  width: 30%;
+  margin: 20px auto 0;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid rgb(0, 0, 0, .6);
+
+  &__title {
+    font-size: 32px;
+    text-transform: uppercase;
+  }
+}

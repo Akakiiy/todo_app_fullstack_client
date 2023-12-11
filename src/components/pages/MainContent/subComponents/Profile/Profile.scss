@@ -1,0 +1,18 @@
+.Profile {
+  position: absolute;
+  top: 20px;
+  left: -20px;
+  transform: translateX(-100%);
+  padding: 10px;
+  border-radius: 16px;
+
+  &__email {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  &__exit {
+    margin-top: 10px !important;
+    font-size: 8px !important;
+  }
+}
