@@ -3,6 +3,6 @@ import { defineConfig } from "vite"
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/todo_app_fullstack",
+  base: "/todo_app_fullstack_client",
   plugins: [react()]
 })
