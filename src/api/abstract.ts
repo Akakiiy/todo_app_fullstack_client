@@ -6,8 +6,7 @@ import axios from "axios"
 const REQUEST_TIMEOUT = 8000
 
 const axiosInstance = axios.create({
-  // baseURL: import.meta.env.VITE_BASE_URL,
-  baseURL: "http://188.120.248.184:8000",
+  baseURL: import.meta.env.VITE_BASE_URL,
   timeout: REQUEST_TIMEOUT,
   headers: {
     "Content-Type": "application/json"
